@@ -1,0 +1,126 @@
+.fade-down {
+    opacity: 0; /* Initially hide element */
+    transform: translateY(-30px); /* Move element up */
+    transition: opacity 0.6s ease, transform 0.6s ease; /* Smooth transition */
+}
+.fade-down.aos-animate {
+    opacity: 1; /* Show element when animated */
+    transform: translateY(0); /* Move element back to its original position */
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cairo', sans-serif;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+nav{
+    width: 100%;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #006600;
+}
+
+.nav-item a{
+    font-size: 20px;
+}
+.nav-item a:hover{
+    color: green;
+}
+
+.hero-section {
+    height: 100vh;
+    background-size: cover;
+    background-image: url(images/hero2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.service:hover{
+    background-color: green !important;
+    color: black !important;
+}
+
+.section-title {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #006600;
+}
+
+.service-card {
+    transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.contact-form .form-control, .contact-form button {
+    border-radius: 10px;
+}
+
+.card-title{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.card-text{
+    font-size: 1em;
+    font-weight: 500;
+}
+
+/* Closed area Cards */
+@media (max-width: 768px) {
+    #servicesss .d-flex {
+        flex-direction: column;
+    }
+
+    #servicesss .card {
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    #servicesss .col-md-6 {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    #servicesss img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #servicesss h5 {
+        font-size: 1.4em;
+    }
+
+    #servicess ul {
+        font-size: 1em;
+    }
+}
+
+
+@media(max-width : 457px){
+    .info_parent{
+        text-align: center;
+    }
+}
+
+@media(max-width : 373px){
+    .info{
+        font-size: 1.7em !important;
+    }
+    .info2{
+        font-size: 2em !important;
+    }
+}
