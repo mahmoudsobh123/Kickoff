@@ -79,10 +79,6 @@ nav{
     font-weight: 500;
 }
 
-.last_picture{
-    height: 250px;
-}
-
 /* Closed area Cards */
 @media (max-width: 768px) {
     #servicesss .d-flex {
@@ -117,6 +113,9 @@ nav{
 @media(max-width : 457px){
     .info_parent{
         text-align: center;
+    }
+    .last_picture{
+    height: 250px;
     }
 }
 
