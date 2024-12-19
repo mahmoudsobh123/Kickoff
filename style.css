@@ -26,7 +26,7 @@ body::-webkit-scrollbar {
 
   /* تغيير لون ومظهر المقبض (thumb) */
   body::-webkit-scrollbar-thumb {
-    background-color: rgb(5, 175, 5) !important;
+    background-color: #00bf63 !important;
     border-radius: 50px !important;
   }
 
@@ -42,7 +42,7 @@ nav {
 
 .navbar-brand {
   font-weight: bold;
-  color: #006600;
+  color: #00bf63;
 }
 
 .nav-item a {
@@ -108,7 +108,7 @@ nav {
   font-weight: bold;
   font-size: 2rem;
   margin-bottom: 1rem;
-  color: #006600;
+  color: #00bf63;
 }
 
 .service-card {
@@ -199,7 +199,7 @@ nav {
 .whatsapp-icon {
   bottom: 80px;
   right: 20px;
-  background-color: #25d366;
+  background-color: #00bf63;
 }
 .whatsapp-icon:hover {
   background-color: #03dd53 !important;
@@ -233,7 +233,7 @@ body {
   position: absolute;
   top: 10px;
   left: -10px;
-  background: #28a745;
+  background: #00bf63;
   color: #fff;
   padding: 0.25rem 1rem;
   font-weight: bold;
@@ -257,4 +257,3 @@ body {
 .card:hover {
   transform: scale(1.05);
 }
-
